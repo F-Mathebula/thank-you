@@ -11,13 +11,9 @@ html {
 
 .modal {
   position: relative;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
-  background: linear-gradient(
-    to right,
-    #000000,
-    #350000
-  ); /* or any background */
+  background: linear-gradient(to right, #000000, #350000);
   display: flex;
   justify-content: center;
   align-items: center;
