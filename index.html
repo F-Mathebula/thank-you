@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thank You</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modal">
+        <div class="modal-content hidden" id="thankContent">
+          <h1>Thank You ❤️</h1>
+          <p>
+            You believed in me before I believed in myself. <br />
+            Because of you, I started coding.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <p class="stagger">
+            You believed in me before I believed in myself.<br />
+            Because of you, I started coding.
+          </p>
+
+          <blockquote class="stagger">
+            "You saw something in me I hadn’t seen in myself — and that changed
+            everything."
+          </blockquote>
+
+          <ul class="milestones stagger">
+            <li>✅ Built my first website</li>
+            <li>✅ Learned how to debug (with less panic!)</li>
+            <li>✅ Fell in love with JavaScript</li>
+            <li>✅ Started dreaming bigger</li>
+          </ul>
+
+          <p class="closing stagger">
+            I hope one day I can inspire someone the way you inspired me. <br />
+            Thank you. 🌟
+          </p>
+        </div>
+        <footer>Made with love &lt;3</footer>
+      </div>
+    </div>
+
+    <script>
+      // Show content after delay
+      window.onload = () => {
+        setTimeout(() => {
+          const content = document.getElementById('thankContent');
+          content.classList.remove('hidden');
+          content.classList.add('slide-down');
+        }, 2000);
+      };
+    </script>
+  </body>
+</html>
